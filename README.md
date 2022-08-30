@@ -1,6 +1,6 @@
-# Diffusion model for 3D shape prediction ensembles from 2D microscopy images
+# A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images
 
-This repository provides the Pytorch implementation of the paper [Diffusion model for 3D shape prediction ensembles from 2D microscopy images](tbd)
+This repository provides the Pytorch implementation of the paper [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](tbd)
 The repositoray was adapted from Wolleb et al. [Diffusion Models for Implicit Image Segmentation Ensembles](https://arxiv.org/abs/2112.03145) who have adapted it from [openai/improved-diffusion](https://github.com/openai/improved-diffusion).
 ## Paper Abstract
 
