@@ -9,6 +9,10 @@ Using the 2D microscopy image as a prior, DISPR is conditioned to predict realis
 Adding features from predictions of DISPR to the three minority classes improved the macro F1 score from macro F1 = 55.2±4.6% to marcro F1 = 72.2±4.9%. 
 With our method being the first to employ a diffusion-based model in this context, we demonstrate that diffusion models can be applied to inverse problems in 3D, and that they learn to reconstruct 3D shapes with realistic morphological features from 2D microscopy images.
 
+<p align="center">
+<img src="Figure/DiffusionSHAPR_Figures.001.png"  width="400" />
+</p>
+
 ## Dataset
 
 We use the red blood cell dataset published by Simionato et al. [Red blood cell phenotyping from 3D confocal images using artificial neural networks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008934), it contains 825 publicly available 3D images of red blood cells recorded with a confocal microscope. 
