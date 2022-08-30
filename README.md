@@ -4,7 +4,10 @@ This repository provides the Pytorch implementation of the paper [A Diffusion Mo
 
 The repositoray was adapted from Wolleb et al. [Diffusion Models for Implicit Image Segmentation Ensembles](https://arxiv.org/abs/2112.03145) who have adapted it from [openai/improved-diffusion](https://github.com/openai/improved-diffusion).
 ## Paper Abstract
-
+Diffusion models are a class of generative models, showing superior performance as compared to other generative models in creating realistic images when trained on natural image datasets. We introduce DISPR, a diffusion-based model for solving the inverse problem of three-dimensional (3D) cell shape prediction from two-dimensional (2D) single cell microscopy images. 
+Using the 2D microscopy image as a prior, DISPR is conditioned to predict realistic 3D shape reconstructions. To showcase the applicability of DISPR as a data augmentation tool in a feature-based single cell classification task, we extract morphological features from the cells grouped into six highly imbalanced classes. 
+Adding features from predictions of DISPR to the three minority classes improved the macro F1 score from F 1macro = 55.2±4.6% to F 1macro = 72.2±4.9%. 
+With our method being the first to employ a diffusion-based model in this context, we demonstrate that diffusion models can be applied to inverse problems in 3D, and that they learn to reconstruct 3D shapes with realistic morphological features from 2D microscopy images.
 
 ## Dataset
 
