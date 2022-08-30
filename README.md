@@ -10,7 +10,7 @@ Adding features from predictions of DISPR to the three minority classes improved
 With our method being the first to employ a diffusion-based model in this context, we demonstrate that diffusion models can be applied to inverse problems in 3D, and that they learn to reconstruct 3D shapes with realistic morphological features from 2D microscopy images.
 
 <p align="center">
-<img src="Figure/DiffusionSHAPR_Figures.001.png"  width="400" />
+<img src="Figure/DiffusionSHAPR_Figures.001.png"  width="600" />
 </p>
 
 ## Dataset
