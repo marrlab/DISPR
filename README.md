@@ -73,5 +73,10 @@ The generated segmentation masks will be stored in the *results* folder.
 If you use this code, please cite
 
 ```
-
+@article{waibel2022diffusion,
+  title={A diffusion model predicts 3d shapes from 2d microscopy images},
+  author={Waibel, Dominik JE and R{\"o}oell, Ernst and Rieck, Bastian and Giryes, Raja and Marr, Carsten},
+  journal={arXiv preprint arXiv:2208.14125},
+  year={2022}
+}
 ```
