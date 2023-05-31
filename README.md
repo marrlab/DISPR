@@ -14,6 +14,7 @@ With our method being the first to employ a diffusion-based model in this contex
 </p>
 
 ## Dataset
+Please find the datasets used for this publication on Zenodo: https://doi.org/10.5281/zenodo.7031924
 
 We use the red blood cell dataset published by Simionato et al. [Red blood cell phenotyping from 3D confocal images using artificial neural networks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008934), it contains 825 publicly available 3D images of red blood cells recorded with a confocal microscope. 
 All cells are already segmented by Waibel et al. in [SHAPR - An AI approach to predict 3D cell shapes from 2D microscopic images](https://www.biorxiv.org/content/10.1101/2021.09.29.462353v1) and are contained in a volume of size (64,64,64) voxels. To each cell one of the following six classes is assigned: 
