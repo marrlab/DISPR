@@ -2,6 +2,18 @@
 
 This repository provides the Pytorch implementation of the paper [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://arxiv.org/abs/2208.14125)
 
+## Citation
+If you use this code, please cite
+
+```
+@article{waibel2022diffusion,
+  title={A diffusion model predicts 3d shapes from 2d microscopy images},
+  author={Waibel, Dominik JE and R{\"o}oell, Ernst and Rieck, Bastian and Giryes, Raja and Marr, Carsten},
+  journal={arXiv preprint arXiv:2208.14125},
+  year={2022}
+}
+```
+
 The repositoray was adapted from Wolleb et al. [Diffusion Models for Implicit Image Segmentation Ensembles](https://arxiv.org/abs/2112.03145) who have adapted it from [openai/improved-diffusion](https://github.com/openai/improved-diffusion).
 ## Paper Abstract
 Diffusion models are a class of generative models, showing superior performance as compared to other generative models in creating realistic images when trained on natural image datasets. We introduce DISPR, a diffusion-based model for solving the inverse problem of three-dimensional (3D) cell shape prediction from two-dimensional (2D) single cell microscopy images. 
@@ -69,15 +81,3 @@ For sampling an ensemble of 5 segmentation masks with the DDPM approach, run:
 python scripts/segmentation_sample.py  --data_dir ./data/testing  --model_path ./results/savedmodel.pt --num_ensemble=5 $MODEL_FLAGS $DIFFUSION_FLAGS
 ```
 The generated segmentation masks will be stored in the *results* folder.
-
-## Citation
-If you use this code, please cite
-
-```
-@article{waibel2022diffusion,
-  title={A diffusion model predicts 3d shapes from 2d microscopy images},
-  author={Waibel, Dominik JE and R{\"o}oell, Ernst and Rieck, Bastian and Giryes, Raja and Marr, Carsten},
-  journal={arXiv preprint arXiv:2208.14125},
-  year={2022}
-}
-```
